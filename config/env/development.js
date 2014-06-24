@@ -8,17 +8,17 @@ module.exports = {
         name: "M*EAN Stack - Development"
     },
     facebook: {
-        clientID: "",
-        clientSecret: "",
+        clientID: "somefakefbid",
+        clientSecret: "mysecret",
         callbackURL: "http://localhost:3000/auth/facebook/callback"
     },
     twitter: {
-        clientID: "",
-        clientSecret: "",
+        clientID: "somefaketwid",
+        clientSecret: "mysecret",
         callbackURL: "http://localhost:3000/auth/twitter/callback"
     },
     google: {
         realm: "http://localhost:3000/",
         callbackURL: "http://localhost:3000/auth/google/callback"
     }
-}
+};
